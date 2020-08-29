@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pokedexfetcher-ui/static/css/main.c0c2db1b.chunk.css",
+    "main.js": "/pokedexfetcher-ui/static/js/main.bec9fbba.chunk.js",
+    "main.js.map": "/pokedexfetcher-ui/static/js/main.bec9fbba.chunk.js.map",
+    "runtime-main.js": "/pokedexfetcher-ui/static/js/runtime-main.53a1cdf3.js",
+    "runtime-main.js.map": "/pokedexfetcher-ui/static/js/runtime-main.53a1cdf3.js.map",
+    "static/js/2.40f0e1b0.chunk.js": "/pokedexfetcher-ui/static/js/2.40f0e1b0.chunk.js",
+    "static/js/2.40f0e1b0.chunk.js.map": "/pokedexfetcher-ui/static/js/2.40f0e1b0.chunk.js.map",
+    "index.html": "/pokedexfetcher-ui/index.html",
+    "precache-manifest.b55dc4ecc8e82c0c8b3469c706484bdb.js": "/pokedexfetcher-ui/precache-manifest.b55dc4ecc8e82c0c8b3469c706484bdb.js",
+    "service-worker.js": "/pokedexfetcher-ui/service-worker.js",
+    "static/css/main.c0c2db1b.chunk.css.map": "/pokedexfetcher-ui/static/css/main.c0c2db1b.chunk.css.map",
+    "static/js/2.40f0e1b0.chunk.js.LICENSE.txt": "/pokedexfetcher-ui/static/js/2.40f0e1b0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.53a1cdf3.js",
+    "static/js/2.40f0e1b0.chunk.js",
+    "static/css/main.c0c2db1b.chunk.css",
+    "static/js/main.bec9fbba.chunk.js"
+  ]
+}
