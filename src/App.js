@@ -23,7 +23,6 @@ const App = () => {
     return (
         <div className="app-container">
             <div className="header">
-                {/* <h1>Pokefetcher</h1> */}
                 <img src="pokefetcher_36.jpeg"></img>
             </div>
             <div className="content">
