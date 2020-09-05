@@ -67,7 +67,6 @@ html {
     display : flex;
     flex : auto;
     flex-direction: column;
-    justify-content: start;
     align-items: center;
     line-height : 2rem;
 }

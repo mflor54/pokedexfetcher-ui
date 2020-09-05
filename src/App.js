@@ -1,11 +1,13 @@
 import React, { useEffect } from 'react';
 import alanBtn from '@alan-ai/alan-sdk-web';
 
+const ALAN_KEY = process.env.REACT_APP_ALAN_KEY || '';
+
 const App = () => {
 
     useEffect(() => {
         alanBtn({
-            key : process.env.REACT_APP_ALAN_KEY,
+            key : ALAN_KEY,
             onCommand : ({ command }) => {
                 if(command === 'testCommand') {
                     alert('This code was executed');
@@ -23,7 +25,7 @@ const App = () => {
     return (
         <div className="app-container">
             <div className="header">
-                <img src="pokefetcher_36.jpeg"></img>
+                <img src="pokefetcher_36.jpeg" alt="Logo saying Pokefetcher"></img>
             </div>
             <div className="content">
                 <div className="instructions">
