@@ -15,14 +15,30 @@ const App = () => {
             left : 'none',
             top : 'none',
             right : 'none',
-            bottom : 'none'
+            bottom : 'none',
+            position : 'relative'
         })
     }, []);
 
     return (
         <div className="app-container">
-            <div className="header"></div>
+            <div className="header">
+                {/* <h1>Pokefetcher</h1> */}
+                <img src="pokefetcher_36.jpeg"></img>
+            </div>
             <div className="content">
+                <div className="instructions">
+                    <h3>Instructions</h3>
+                    <div>
+                        Press the microphone button and say the following to begin
+                    </div>
+                    <div>
+                    1 : I want to learn about a pokemon OR Tell me about a pokemon
+                    </div>
+                    <div>
+                    2 : Wait for a response and answer back with the pokemon you're interested in
+                    </div>
+                </div>
                 <div className="pokeball"></div>
             </div>
         </div>

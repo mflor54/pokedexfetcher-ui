@@ -4,6 +4,7 @@ body {
     height : 100vh;
     margin : 0;
     padding : 0;
+    font-family: 'Concert One', cursive;
 }
 
 body {
@@ -15,21 +16,42 @@ body {
     box-sizing: border-box;
 }
 
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 0.5rem;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
+#root {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .app-container {
     width : 100%;
+    max-width : 1200px;
+    min-width: 320px;
     height : 100%;
     position : relative;
     display : flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .header {
     height : 80px;
+    width : 100%;
     background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .content {
@@ -39,4 +61,13 @@ html {
     justify-content: center;
     align-items: center;
     height : 100%;
+}
+
+.instructions {
+    display : flex;
+    flex : auto;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    line-height : 2rem;
 }
